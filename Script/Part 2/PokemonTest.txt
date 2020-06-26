@@ -1,0 +1,59 @@
+% 1. Những pokemon nào là đặc biệt và thuộc loài gì?
+?- special(X, Y).
+
+% 2. Những pokemon nào thuộc gia đình charmander?
+?- family(X, charmander).
+
+% 3. Hệ của bulbasaur_A là gì?
+?- type(bulbasaur_A, X).
+
+% 4. bulbasaur_C và charmeleon_A có cùng hệ?
+?- same_type(bulbasaur_C, charmeleon_A).
+
+% 5. ivysaur_A và charizard_C có sống cùng chỗ?
+?- same_region(ivysaur_A, charizard_C).
+
+% 6. ivysaur_A và charizard_C có sống khác chỗ?
+?- different_region(ivysaur_A, charizard_C).
+
+% 7. wartortle_Y khắc chế những hệ nào?
+?- counter(wartortle_Y, X).
+
+% 8. wartortle_Y hỗ trợ những hệ nào?
+?- mutual(pikachu_T, water).
+
+% 9. Những pokemon nào là bạn của bulbasaur_A?
+?- friend(bulbasaur_A, X).
+
+% 10. bulbasaur_A và venusaur_A có phải kẻ thù?
+?- enemy(bulbasaur_A, venusaur_A).
+
+% 11. bulbasaur_A có thể tiến hóa thành những loại (cùng gia đình) nào?
+?- evolution(bulbasaur_A, X).
+
+% 12. pikachu_T có thể tiến hóa đặc biệt thành những hệ nào?
+?- evolution_special(pikachu_T, X).
+
+% 13. pichu là tiền thân của những con nào?
+?- ancestor(pichu, X).
+
+% 14. charizard_C có những chiêu thức (tự học và do hệ) gì?
+?- use_skill(charizard_C, X).
+
+% 15. pikachu_T có thể học những chiêu thức (nhờ bản tính) gì?
+?- can_use_skill(pikachu_T, X).
+
+% 16. bulbasaur_C có những cách di chuyển gì?
+?- use_move(bulbasaur_C, X).
+
+% 17. Những pokemon nào thì dùng đòn đánh thường?
+?- physical_attack(X).
+
+% 18. pikachu_T có thể dùng đòn đánh đặc biệt?
+?- special_attack(pikachu_T).
+
+% 19. pikachu_T có thể gây sát thương khi tấn công lên hệ ground?
+?- no_effect(pikachu_T, ground).
+
+% 20. bulbasaur_A có thể gây sát thương gấp đôi khi tấn công hệ nào?
+?- super_effective(bulbasaur_A, X).

@@ -1,0 +1,59 @@
+% 1. Ai là mẹ của Prince Geogre?
+?- mother(Mother, george).
+
+% 2. Ai là chồng của Zara Tindall?
+?- husband(Husband, zara_tindall).
+
+% 3. Ai là vợ của Prince Haray?
+?- wife(Wife, harry).
+
+% 4. Ai là con của Prince Charles?
+?- child(Child, charles).
+
+% 5. Ai là con trai của Queen Elizabeth II?
+?- son(Son, elizabeth_II).
+
+% 6. Ai là ông/bà của Princess Eugenie?
+?- grandparent(GP, eugenie).
+
+% 7. Ai là ông của Princess Charlotte?
+?- grandfather(GF, charlotte).
+
+% 8. Ai là cháu của Princess Diana?
+?- grandchild(GC, diana).
+
+% 9. Ai là cháu trai của Prince Phillip?
+?- grandson(GS, philip).
+
+% 10. Ai là anh/chị/em của Prince George?
+?- sibling(Sibling, george).
+
+% 11. Ai là anh/em trai của Prince William?
+?- brother(Brother, william).
+
+% 12. Ai là chị/em gái của Prince Edward?
+?- sister(Sister, edward).
+
+% 13. Ai là dì của Prince William?
+?- aunt(Aunt, william).
+
+% 14. Ai là cậu của Mike Tindall?
+?- uncle(Uncle, mike_tindall).
+
+% 15. Ai là cháu gái của Camilla Parker Bowles?
+?- niece(Niece, camilla).
+
+% 16. Princess Diana có phải vợ của Prince Andrew không?
+?- wife(diana, andrew).
+
+% 17. James, Viscount Severn có phải anh/chị/em của Lady Louise Windsor không?
+?- sibling(james, lady_louise_windsor).
+
+% 18. Queen Elizabeth II có phải bà ngoại của Prince Harry không?
+?- grandmother(elizabeth_II, harry).
+
+% 19. Prince Edward có phải cháu của Prince Phillip không?
+?- grandchild(edward, philip).
+
+% 20. Prince Charles có phải cậu của Prince Harry không?
+?- uncle(charles, harry).
